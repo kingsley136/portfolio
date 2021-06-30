@@ -32,7 +32,7 @@ ul {
 
 .primary-button a {
   display: inline-block;
-  background-color: #fa5252;
+  background-color: #0073a4;
   color: #fff;
   letter-spacing: 1px;
   font-size: 11px;
@@ -366,7 +366,7 @@ ul {
 */
 
 .about-content {
-  height: 100vh;
+  height: 60vh;
   background-color: rgba(45, 58, 75, 0.5);
   padding: 0px 60px;
   position: relative;
@@ -374,7 +374,7 @@ ul {
 }
 
 .about-content .heading {
-  padding-top: 40%;
+  padding-top: 20%;
 }
 
 .about-box-content {
@@ -459,7 +459,7 @@ ul {
   margin-right: 15px;
   background-color: #fff;
   padding: 25px 30px;
-  margin-top: -45px;
+  margin-top: 10px;
   position: relative;
   z-index: 2;
 }
@@ -500,6 +500,8 @@ ul {
   padding: 0px 60px;
   position: relative;
   margin: 0 auto;
+  padding-top: 60px;
+  margin-top: 25px;
 }
 
 .contact-content .heading {
@@ -986,7 +988,10 @@ body.lb-disable-scrolling {
     -webkit-touch-callout: none; }
   .owl-carousel .owl-item img {
     display: block;
-    width: 100%; }
+    width: auto;
+    height: 120px;
+    margin: auto;
+  }
   .owl-carousel .owl-nav.disabled,
   .owl-carousel .owl-dots.disabled {
     display: none; }
@@ -1136,4 +1141,10 @@ body.lb-disable-scrolling {
 
 .owl-carousel .owl-nav {
   display: none;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
